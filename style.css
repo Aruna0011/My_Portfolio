@@ -46,7 +46,7 @@ nav {
 
 nav ul {
     flex: 1;
-    text-align: center;
+    text-align: right;
 }
 
 nav ul li {
@@ -93,7 +93,6 @@ nav ul li a:hover {
 }
 #header{
     margin-bottom: -40px;
-
 }
 
 .header-text p {
@@ -112,6 +111,10 @@ nav ul li a:hover {
     font-size: 1.875rem;
     color: #13cad9;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#icon{
+    width: 30px;
+    cursor: pointer;
 }
 #about {
     margin: 1.25rem 12%;
@@ -258,7 +261,7 @@ form textarea {
     background: #262626;
     padding: 0.313rem;
     margin: 0.313rem 0;
-    color: white;
+    color: var(--primary-color);
     font-size: 1.125rem;
     border-radius: 8px;
 }
@@ -277,12 +280,18 @@ form.btn2 {
     background: #262626;
     font-weight: 300;
     margin-top: 1.25rem;
+    color: white;
 }
 .Copyright i{
     color: red;
 }
 nav .fas {
     display: none;
+}
+#msg {
+    color: #ababab;
+    margin-top: -40px;
+    display: block;
 }
 /* ------------css for small screen------------- */
 @media only screen and (max-width:600px) {
@@ -299,8 +308,9 @@ nav .fas {
         height: 100vh;
         padding-top: 50px;
         z-index: 2;
+        flex: 1;
+        text-align: center;
     }
-
     nav ul li {
         display: block;
         margin: 15px;
@@ -343,8 +353,3 @@ nav .fas {
     }
 }
 
-#msg {
-    color: #ababab;
-    margin-top: -40px;
-    display: block;
-}
