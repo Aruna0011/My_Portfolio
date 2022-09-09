@@ -242,11 +242,12 @@ nav ul li a:hover {
     color: var(--secondary-color);
     background-color: var(--primary-color);
     display: inline-block;
-    margin: 3.125rem auto;
+    margin: 35px auto;
     width: fit-content;
     padding: 0.875rem 3.125rem;
     border-radius: 8px;
     border: none;
+    font-size: large;
 }
 
 form input,
@@ -265,7 +266,7 @@ form textarea {
 form.btn2 {
     padding: 0.875rem 3.75rem;
     cursor: pointer;
-    font-size: 1.125rem;
+    font-size: 20px;
     margin-top: 1.25rem;
 }
 
