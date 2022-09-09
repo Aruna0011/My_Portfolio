@@ -246,6 +246,7 @@ nav ul li a:hover {
     width: fit-content;
     padding: 0.875rem 3.125rem;
     border-radius: 8px;
+    border: none;
 }
 
 form input,
