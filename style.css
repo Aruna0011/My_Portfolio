@@ -94,6 +94,9 @@ nav ul li a:hover {
 #header{
     margin-bottom: -40px;
 }
+.fas fa-user{
+    padding: 14px;
+}
 
 .header-text p {
     line-height: 1.375rem;
@@ -103,7 +106,7 @@ nav ul li a:hover {
 
 #span1 {
     font-size: 1.875rem;
-    color: #e8d5ab;
+    color: #ff4321;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -142,14 +145,17 @@ nav ul li a:hover {
 .sub{
     font-size: 3.125rem;
     font-weight: 600;
-    color: #e8d5ab;
+    color: var(--primary-color);
 }
 
 .tab-titles {
     display: flex;
     margin: 1.25rem 0 40px;
 }
-
+.About-para{
+    line-height: 20px;
+    color: var(--primary-color);
+}
 .tab-links {
     margin-right: 3.125rem;
     font-weight: 500;
@@ -250,7 +256,7 @@ nav ul li a:hover {
     padding: 0.875rem 3.125rem;
     border-radius: 8px;
     border: none;
-    font-size: large;
+    /* font-size: large; */
 }
 
 form input,
@@ -298,6 +304,7 @@ nav .fas {
     nav .fas {
         display: block;
         font-size: 25px;
+        color: var(--primary-color);
     }
     nav ul {
         background: #262626;
