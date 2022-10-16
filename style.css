@@ -267,7 +267,7 @@ form textarea {
     background: #262626;
     padding: 0.313rem;
     margin: 0.313rem 0;
-    color: var(--primary-color);
+    color: white;
     font-size: 1.125rem;
     border-radius: 8px;
 }
