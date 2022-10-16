@@ -79,7 +79,7 @@ nav ul li a:hover::after {
 }
 
 nav ul li a:hover {
-    color: var(--primary-color);
+    color: white;
 }
 
 .auto-type {
@@ -330,6 +330,8 @@ nav .fas {
         top: 25px;
         left: 25px;
         cursor: pointer;
+        color: white
+
     }
 
     .about-col-1,
