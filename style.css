@@ -251,11 +251,13 @@ nav ul li a:hover {
     color: var(--secondary-color);
     background-color: var(--primary-color);
     display: inline-block;
-    margin: 3.125rem auto;
+    /* margin: 3.125rem auto; */
     width: fit-content;
     padding: 0.875rem 3.125rem;
     border-radius: 8px;
     border: none;
+    margin-top: 20px;
+    margin-bottom: 38px;
     /* font-size: large; */
 }
 
