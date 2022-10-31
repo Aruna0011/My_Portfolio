@@ -296,6 +296,21 @@ form.btn2 {
 nav .fas {
     display: none;
 }
+#email
+{
+ cursor: pointer;
+ color: grey;
+}
+#phone{
+    cursor: pointer;
+    color: grey;
+}
+#phone:hover{
+    color: var(--primary-color);
+}
+#email:hover{
+    color: var(--primary-color);
+}
 #msg {
     color: #ababab;
     margin-top: -10px;
